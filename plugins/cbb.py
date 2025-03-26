@@ -22,7 +22,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [ [ InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data ="source"),
                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ" , callback_data = "main")],
-                 [InlineKeyboardButton("ᴡᴀᴛᴄʜ sʜᴏʀᴛs 𝟷𝟾+ ᴠɪᴅᴇᴏs", url = "https://t.me/UnseenRobot/shorts")],
+                 [InlineKeyboardButton("Watch ಕನ್ನಡ MOVIES 🍿", url = "https://t.me/DVITTALKANNADAMOVIE")],
                     [
                         InlineKeyboardButton("🔙 ʙᴀᴄᴋ ", callback_data = "home"),
                         InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
