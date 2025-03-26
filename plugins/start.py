@@ -96,7 +96,7 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"<i><b>🦄 Importance </b>\n\nThis file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward it to your saved messages before it gets deleted.</i>"
+                f"<i><b>🦄 ಸಲಹೆ Importance </b>\n\nThis file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward it to your saved messages before it gets deleted.</i>"
             )
 
             await asyncio.sleep(FILE_AUTO_DELETE)
@@ -134,7 +134,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton(text="🎭", callback_data="about"),
                 ],[ InlineKeyboardButton( "ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", callback_data = "main" ),
                     InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", callback_data = "source")
-                ], [ InlineKeyboardButton("ᴡᴀᴛᴄʜ 𝟷𝟾+ sʜᴏʀᴛs ᴠɪᴅᴇᴏs", url = "http://t.me/UnseenRobot/shorts") ],
+                ], [ InlineKeyboardButton("Watch ಕನ್ನಡ Movies 🍿", url = "https://t.me/DVITTALKANNADAMOVIE") ],
                 [
                     InlineKeyboardButton("ᴍᴀɪɴ", callback_data = "about"),
                     InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about")
