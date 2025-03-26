@@ -96,8 +96,7 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"<i><b>🦄 ಸಲಹೆ Importance⸙ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ </b>\n\n 
-30 ನಿಮಿಷಗಳ ನಂತರ Auto Delete ಆಗುತ್ತೆ. ಆದ ಕಾರಣ Forward or Share ಮಾಡಿಕೊಳ್ಳಿ. This file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward it to your saved messages before it gets deleted.</i>"
+                f"<i><b>🦄ಸಲಹೆImportance</b>\n\n This file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward it to your saved messages before it gets deleted.</i>"
             )
 
             await asyncio.sleep(FILE_AUTO_DELETE)
